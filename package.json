@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/server.js"
   },
+  "keywords": [
+    "fullstack",
+    "nodejs",
+    "express_lol"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
