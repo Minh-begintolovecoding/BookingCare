@@ -4,10 +4,7 @@ let router=express.Router();
 
 let initWebRoutes=(app)=>{
     router.get ('/',homeController.getHomePage);
-    
-    router.get ('/hoiminhnghechua',(req,res)=>{
-        return res.send('Hello cai gi?')
-    });
+    router.get ('/about',homeController.getAboutPage);
 
     return app.use("/",router);
 }
